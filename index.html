@@ -7,10 +7,39 @@
     <title>etch a sketch</title>
     <link rel="stylesheet" href="style.css">
     </head>
-<body>
-    <div id="container">
+<body id="body">
+    <div id="header">
+        <h1>Etch a sketch</h1>
+        <div id="input">        
+            <p>New grid size: </p>
+            <input type="text" name="" id="inputbox">
+            <input type="button" onclick="getInput()" id="inputbutton" value="Submit">
+        </div>
 
-    </div>    
+    </div>
+
+    <div id="container"></div>
+
+
+
+
+    <!--TESTES-->
+<!--     <form>
+        a: <input type="number" name="a" id="a"><br>
+        b: <input type="number" name="b" id="b"><br>
+        <button onclick="add()">Add</button>
+      </form>
+      
+      <script>
+        function add() {
+          var a = document.getElementById('a').value;
+          var b = document.getElementById('b').value;
+      
+          var sum = parseInt(a) + parseInt(b);
+          alert(sum);
+        }
+      </script> -->
+
 </body>
 <script src="script.js"></script>
 </html>
