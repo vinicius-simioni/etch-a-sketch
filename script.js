@@ -4,7 +4,7 @@ function drawGrid(gridsize){
     for(var i = 0; i<gridsize; i++){
         document.getElementById("container").innerHTML += "<div class='row'></div>";
         for(var j=0; j<gridsize; j++){
-            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=color'></div>";
+            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=\"#2E3332\"'></div>";
         }
     }
 }
@@ -24,7 +24,7 @@ function getInput(){
     for(var i = 0; i<gridsize; i++){
         document.getElementById("container").innerHTML += "<div class='row'></div>";
         for(var j=0; j<gridsize; j++){
-            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=color'></div>";
+            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=\"#2E3332\"'></div>";
         }
     }
 }

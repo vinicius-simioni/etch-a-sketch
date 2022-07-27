@@ -2,7 +2,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #CCC;
+    background-color: #B7EAF7;
+    color: #445A67;
 }
 #container{
     display: grid;
@@ -29,10 +30,16 @@ body{
 }
 #inputbutton{
     margin: 5px;
+    background-color: #57838D;
+    color: white;
+    border-radius: 5px;
+}
+#inputbutton:hover{
+    margin: 5px;
+    background-color: #B4C9C7;
 }
 .row{
     display: flex;
-    background-color: black;
     height: auto;
     width:  100%;
 }
