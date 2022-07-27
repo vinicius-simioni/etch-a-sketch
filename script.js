@@ -1,14 +1,15 @@
+let color = 'black';
 //add div when opening page
 function drawGrid(gridsize){
     for(var i = 0; i<gridsize; i++){
         document.getElementById("container").innerHTML += "<div class='row'></div>";
         for(var j=0; j<gridsize; j++){
-            document.getElementsByClassName("row")[i].innerHTML += "<div class='column'></div>";
+            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=color'></div>";
         }
     }
 }
 //call starting grid
-drawGrid(20);
+drawGrid(10);
 
 //change grid layout
 function getInput(){
@@ -23,8 +24,7 @@ function getInput(){
     for(var i = 0; i<gridsize; i++){
         document.getElementById("container").innerHTML += "<div class='row'></div>";
         for(var j=0; j<gridsize; j++){
-            document.getElementsByClassName("row")[i].innerHTML += "<div class='column'></div>";
+            document.getElementsByClassName("row")[i].innerHTML += "<div class='column' onmouseover='this.style.backgroundColor=color'></div>";
         }
     }
 }
-

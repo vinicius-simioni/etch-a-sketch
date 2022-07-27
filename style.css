@@ -38,8 +38,7 @@ body{
 }
 .column{
     display: flex;
-    background-color: black;
+    background-color: #FFFFFF;
     height: auto;
     width:  100%;
-    border: 1px green dotted;
 }
